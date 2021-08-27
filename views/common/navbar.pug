@@ -1,0 +1,23 @@
+mixin navbar()
+  nav.navbar.navbar-expand.navbar-dark.bg-dark
+    a(href="/", aria-label="Envirosuite").navbar-brand.mr-0.mr-md-2
+      img(src="/images/enviro_fp_white.png", width="180", height="45")
+    .collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        li.nav-item
+          a.nav-link(href="/") Home
+      form.form-inline.my-2.my-lg-0(action='/sitecheck/:siteSelection' method="post")
+        table
+          td
+            select(name='siteSelection', id='siteSelection', class="selectpicker", data-live-search="true", data-width="auto" data-size="20" data-style="btn-secondary" title="Select a Site...")
+              optgroup(label="APAC")
+                each site in SitesAPAC
+                  option=site + " - " + master.siteID[site].details.name
+              optgroup(label="EMEA")
+                each site in SitesEMEA
+                  option=site + " - " + master.siteID[site].details.name
+              optgroup(label="US")
+                each site in SitesUS
+                  option=site + " - " + master.siteID[site].details.name
+          td
+            button.btn.btn-outline-secondary(type='submit') Submit

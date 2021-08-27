@@ -1,0 +1,1284 @@
+{
+  "siteID": {
+    "ADL": {
+      "details": {
+        "name": "Adelaide Airport",
+        "region": "APAC",
+        "IATA": "ADL",
+        "ICAO": "YPAD"
+      },
+      "sql": {
+        "username": "adl_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YPAD'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "AMB": {
+      "details": {
+        "name": "RAAF Base Amberley",
+        "region": "APAC",
+        "IATA": "AMB",
+        "ICAO": "YAMB"
+      },
+      "sql": {
+        "username": "amb_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "DOD",
+        "operAirportID": "'YAMB'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "BNE": {
+      "details": {
+        "name": "Brisbane Airport",
+        "region": "APAC",
+        "IATA": "BNE",
+        "ICAO": "YBBN"
+      },
+      "sql": {
+        "username": "bne_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YBBN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "CBR": {
+      "details": {
+        "name": "Canberra Airport",
+        "region": "APAC",
+        "IATA": "CBR",
+        "ICAO": "YSCB"
+      },
+      "sql": {
+        "username": "cbr_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YSCB'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "CNS": {
+      "details": {
+        "name": "Cairns Airport",
+        "region": "APAC",
+        "IATA": "CNS",
+        "ICAO": "YBCS"
+      },
+      "sql": {
+        "username": "cns_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YBCS'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "FAB": {
+      "details": {
+        "name": "Farnborough Airport",
+        "region": "EMEA",
+        "IATA": "FAB",
+        "ICAO": "EGLF"
+      },
+      "sql": {
+        "username": "fab_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "'EGLF'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "HBA": {
+      "details": {
+        "name": "Hobart Airport",
+        "region": "APAC",
+        "IATA": "HBA",
+        "ICAO": "TMHB"
+      },
+      "sql": {
+        "username": "hba_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'TMHB'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "KNH": {
+      "details": {
+        "name": "Kinmen Shangyi Airport",
+        "region": "APAC",
+        "IATA": "KNH",
+        "ICAO": "RCBS"
+      },
+      "sql": {
+        "username": "knh_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "KNH",
+        "operAirportID": "'RCBS'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LST": {
+      "details": {
+        "name": "Launceston Airport",
+        "region": "APAC",
+        "IATA": "LST",
+        "ICAO": "YMLT"
+      },
+      "sql": {
+        "username": "lst_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YMLT'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "MCY": {
+      "details": {
+        "name": "Sunshine Coast Airport",
+        "region": "APAC",
+        "IATA": "MCY",
+        "ICAO": "YBSU"
+      },
+      "sql": {
+        "username": "mcy_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YBSU'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "MEL": {
+      "details": {
+        "name": "Melbourne Airport",
+        "region": "APAC",
+        "IATA": "MEL",
+        "ICAO": "YMML"
+      },
+      "sql": {
+        "username": "mel_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YMML'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "MFM": {
+      "details": {
+        "name": "Macau International Airport",
+        "region": "APAC",
+        "IATA": "MFM",
+        "ICAO": "VMMC"
+      },
+      "sql": {
+        "username": "mfm_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "MFM",
+        "operAirportID": "'VMMC'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "OOL": {
+      "details": {
+        "name": "Gold Coast Airport",
+        "region": "APAC",
+        "IATA": "OOL",
+        "ICAO": "YBCG"
+      },
+      "sql": {
+        "username": "ool_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YBCG'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "PER": {
+      "details": {
+        "name": "Perth International Airport",
+        "region": "APAC",
+        "IATA": "PER",
+        "ICAO": "YPPH"
+      },
+      "sql": {
+        "username": "per_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YPPH'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "PPL": {
+      "details": {
+        "name": "Warsaw Chopin Airport",
+        "region": "EMEA",
+        "IATA": "WAW",
+        "ICAO": "EPWA"
+      },
+      "sql": {
+        "username": "waw_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "WAW",
+        "operAirportID": "'EPWA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SYD": {
+      "details": {
+        "name": "Sydney Airport",
+        "region": "APAC",
+        "IATA": "SYD",
+        "ICAO": "YSSY"
+      },
+      "sql": {
+        "username": "syd_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ASA",
+        "operAirportID": "'YSSY'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "TPE": {
+      "details": {
+        "name": "Taoyuan International Airport",
+        "region": "APAC",
+        "IATA": "TPE",
+        "ICAO": "RCTP"
+      },
+      "sql": {
+        "username": "tpe_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "TPE",
+        "operAirportID": "'RCTP'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "TSA": {
+      "details": {
+        "name": "Songshan Airport",
+        "region": "APAC",
+        "IATA": "TSA",
+        "ICAO": "RCSS"
+      },
+      "sql": {
+        "username": "tsa_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "TSA",
+        "operAirportID": "'RCSS'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "TSV": {
+      "details": {
+        "name": "Townsville  Airport",
+        "region": "APAC",
+        "IATA": "TSV",
+        "ICAO": "YBTL"
+      },
+      "sql": {
+        "username": "tsv_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "DOD",
+        "operAirportID": "'YBTL'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "TTT": {
+      "details": {
+        "name": "Taitung Airport",
+        "region": "APAC",
+        "IATA": "TTT",
+        "ICAO": "RCFN"
+      },
+      "sql": {
+        "username": "ttt_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "TTT",
+        "operAirportID": "'RCFN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "WEL": {
+      "details": {
+        "name": "Wellington Airport",
+        "region": "APAC",
+        "IATA": "WEL",
+        "ICAO": "NZWN"
+      },
+      "sql": {
+        "username": "wel_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "WEL",
+        "operAirportID": "'NZWN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "WLM": {
+      "details": {
+        "name": "RAAF Base Williamtown",
+        "region": "APAC",
+        "IATA": "WLM",
+        "ICAO": "YWLM"
+      },
+      "sql": {
+        "username": "wlm_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "DOD",
+        "operAirportID": "'YWLM'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "AMS": {
+      "details": {
+        "name": "Amsterdam Airport Schiphol",
+        "region": "EMEA",
+        "IATA": "AMS",
+        "ICAO": "EHAM"
+      },
+      "sql": {
+        "username": "ams_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "AMS",
+        "operAirportID": "'EHAM'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "DSA": {
+      "details": {
+        "name": "Doncaster Sheffield Airport",
+        "region": "EMEA",
+        "IATA": "DSA",
+        "ICAO": "'EGCN'"
+      },
+      "sql": {
+        "username": "dsa_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "'EGCN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "EIN": {
+      "details": {
+        "name": "Eindhoven Airport",
+        "region": "EMEA",
+        "IATA": "EIN",
+        "ICAO": "EHEH"
+      },
+      "sql": {
+        "username": "ein_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "'EHEH'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "FAO": {
+      "details": {
+        "name": "Faro Airport",
+        "region": "EMEA",
+        "IATA": "FAO",
+        "ICAO": "LPFR"
+      },
+      "sql": {
+        "username": "fao_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ANA",
+        "operAirportID": "'LPFR'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "FNC": {
+      "details": {
+        "name": "Madeira Airport",
+        "region": "EMEA",
+        "IATA": "FNC",
+        "ICAO": "LPMA"
+      },
+      "sql": {
+        "username": "fnc_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ANA",
+        "operAirportID": "'LPMA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LGW": {
+      "details": {
+        "name": "London Gatwick",
+        "region": "EMEA",
+        "IATA": "LGW",
+        "ICAO": "EGKK"
+      },
+      "sql": {
+        "username": "lgw_anoms_dba",
+        "password": "lgw3875",
+        "connectString": "EUAWS",
+        "operAirportID": "'LGW'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LHR": {
+      "details": {
+        "name": "Heathrow Airport",
+        "region": "EMEA",
+        "IATA": "LHR",
+        "ICAO": "EGLL"
+      },
+      "sql": {
+        "username": "lhr_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "'EGLL'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LIS": {
+      "details": {
+        "name": "Lisbon Airport",
+        "region": "EMEA",
+        "IATA": "LIS",
+        "ICAO": "LPPT"
+      },
+      "sql": {
+        "username": "lis_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ANA",
+        "operAirportID": "'LPPT'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LPL": {
+      "details": {
+        "name": "Liverpool John Lennon Airport",
+        "region": "EMEA",
+        "IATA": "LPL",
+        "ICAO": "EGGP"
+      },
+      "sql": {
+        "username": "lpl_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "'EGGP'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LUX": {
+      "details": {
+        "name": "Luxembourg Airport",
+        "region": "EMEA",
+        "IATA": "LUX",
+        "ICAO": "ELLX"
+      },
+      "sql": {
+        "username": "lux_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "LUX",
+        "operAirportID": "'ELLX'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "OPO": {
+      "details": {
+        "name": "Porto Airport",
+        "region": "EMEA",
+        "IATA": "OPO",
+        "ICAO": "LPPR"
+      },
+      "sql": {
+        "username": "opo_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ANA",
+        "operAirportID": "'LPPR'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "STN": {
+      "details": {
+        "name": "London Stansted Airport",
+        "region": "EMEA",
+        "IATA": "STN",
+        "ICAO": "EGSS"
+      },
+      "sql": {
+        "username": "stn_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "EUAWS",
+        "operAirportID": "example"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "APA": {
+      "details": {
+        "name": "Centennial Airport",
+        "region": "US",
+        "IATA": "APA",
+        "ICAO": "KAPA"
+      },
+      "sql": {
+        "username": "apa_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "APA",
+        "operAirportID": "'KAPA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "AUS": {
+      "details": {
+        "name": "Austin-Bergstrom International Airport",
+        "region": "US",
+        "IATA": "AUS",
+        "ICAO": "KAUS"
+      },
+      "sql": {
+        "username": "aus_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "AUS",
+        "operAirportID": "'AUS'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "BWI": {
+      "details": {
+        "name": "Baltimore/Washington International",
+        "region": "US",
+        "IATA": "BWI",
+        "ICAO": "KBWI"
+      },
+      "sql": {
+        "username": "bwi_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "BWI",
+        "operAirportID": "'KBWI'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "CMH": {
+      "details": {
+        "name": "John Glen Columbus International Airport",
+        "region": "US",
+        "IATA": "CMH",
+        "ICAO": "KCMH"
+      },
+      "sql": {
+        "username": "cmh_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "CMH",
+        "operAirportID": "'CMH'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "CRQ": {
+      "details": {
+        "name": "McClellan–Palomar Airport",
+        "region": "US",
+        "IATA": "CRQ",
+        "ICAO": "KCRQ"
+      },
+      "sql": {
+        "username": "crq_anoms_dba",
+        "password": "4mNnnKBmC7E7",
+        "connectString": "CRQ",
+        "operAirportID": "'CRQ'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "DCA": {
+      "details": {
+        "name": "Ronald Reagan WN Airport",
+        "region": "US",
+        "IATA": "DCA",
+        "ICAO": "KDCA"
+      },
+      "sql": {
+        "username": "mwa_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "DCA",
+        "operAirportID": "'KDCA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "DEN": {
+      "details": {
+        "name": "Denver International Airport",
+        "region": "US",
+        "IATA": "DEN",
+        "ICAO": "KDEN"
+      },
+      "sql": {
+        "username": "den_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "DEN",
+        "operAirportID": "'DEN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "FXE": {
+      "details": {
+        "name": "Fort Lauderdale Executive Airport",
+        "region": "US",
+        "IATA": "FXE",
+        "ICAO": "KFXE"
+      },
+      "sql": {
+        "username": "fxe_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "FXE",
+        "operAirportID": "'FXE'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "HNL": {
+      "details": {
+        "name": "Honolulu International Airport",
+        "region": "US",
+        "IATA": "HNL",
+        "ICAO": "PHNL"
+      },
+      "sql": {
+        "username": "hnl_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "hnl",
+        "operAirportID": "'HNL'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "HPN": {
+      "details": {
+        "name": "Westchester County Airport",
+        "region": "US",
+        "IATA": "HPN",
+        "ICAO": "KHPN"
+      },
+      "sql": {
+        "username": "hpn_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "HPN",
+        "operAirportID": "'HPN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "IAD": {
+      "details": {
+        "name": "Dulles International Airport",
+        "region": "US",
+        "IATA": "IAD",
+        "ICAO": "KIAD"
+      },
+      "sql": {
+        "username": "iad_anoms_dba",
+        "password": "iad875",
+        "connectString": "IAD",
+        "operAirportID": "'KIAD'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "ITO": {
+      "details": {
+        "name": "Hilo International Airport",
+        "region": "US",
+        "IATA": "ITO",
+        "ICAO": "PHTO"
+      },
+      "sql": {
+        "username": "ito_anoms_dba",
+        "password": "gOQZg9PMEo",
+        "connectString": "ITO",
+        "operAirportID": "'PHTO'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LAX": {
+      "details": {
+        "name": "Los Angeles International Airport",
+        "region": "US",
+        "IATA": "LAX",
+        "ICAO": "KLAX"
+      },
+      "sql": {
+        "username": "lax_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "LAWA",
+        "operAirportID": "'LAX'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "LGB": {
+      "details": {
+        "name": "Long Beach Airport",
+        "region": "US",
+        "IATA": "LGB",
+        "ICAO": "KLGB"
+      },
+      "sql": {
+        "username": "lgb_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "LGB",
+        "operAirportID": "'LGB'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "OAK": {
+      "details": {
+        "name": "Oakland International Airport",
+        "region": "US",
+        "IATA": "OAK",
+        "ICAO": "KOAK"
+      },
+      "sql": {
+        "username": "oak_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "OAK",
+        "operAirportID": "'OAK'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "ONT": {
+      "details": {
+        "name": "Ontario International Airport",
+        "region": "US",
+        "IATA": "ONT",
+        "ICAO": "KONT"
+      },
+      "sql": {
+        "username": "ont_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "ONT",
+        "operAirportID": "'ONT'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "PANYNJ": {
+      "details": {
+        "name": "Port Authority of New York and New Jersey",
+        "region": "US",
+        "IATA": "PNY",
+        "ICAO": "Unknown"
+      },
+      "sql": {
+        "username": "pny_anoms_dba",
+        "password": "lochard875",
+        "connectString": "PANYNJ",
+        "operAirportID": "'KJFK', 'KEWR', 'KTEB', 'KEWR', 'KLGA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "RNO": {
+      "details": {
+        "name": "Reno–Tahoe International Airport",
+        "region": "US",
+        "IATA": "RNO",
+        "ICAO": "KRNO"
+      },
+      "sql": {
+        "username": "rno_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "RNO",
+        "operAirportID": "'RNO'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SAN": {
+      "details": {
+        "name": "San Diego International Airport",
+        "region": "US",
+        "IATA": "SAN",
+        "ICAO": "KSAN"
+      },
+      "sql": {
+        "username": "san_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "SAN",
+        "operAirportID": "'SAN'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SAT": {
+      "details": {
+        "name": "San Antonio International Airport",
+        "region": "US",
+        "IATA": "SAT",
+        "ICAO": "KSAT"
+      },
+      "sql": {
+        "username": "sat_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "SAT",
+        "operAirportID": "'KSAT'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SFO": {
+      "details": {
+        "name": "San Francisco International Airport",
+        "region": "US",
+        "IATA": "SFO",
+        "ICAO": "KSFO"
+      },
+      "sql": {
+        "username": "sfo_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "SFO",
+        "operAirportID": "'SFO'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SJC": {
+      "details": {
+        "name": "San Jose International Airport",
+        "region": "US",
+        "IATA": "SJC",
+        "ICAO": "KSJC"
+      },
+      "sql": {
+        "username": "sjc_anoms_dba",
+        "password": "N0izesjc2011",
+        "connectString": "SJC",
+        "operAirportID": "'SJC'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SMF": {
+      "details": {
+        "name": "Sacramento International Airport",
+        "region": "US",
+        "IATA": "SMF",
+        "ICAO": "KSMF"
+      },
+      "sql": {
+        "username": "smf_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "SMF",
+        "operAirportID": "'SMF'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SMO": {
+      "details": {
+        "name": "Santa Monica Airport",
+        "region": "US",
+        "IATA": "SMO",
+        "ICAO": "KSMO"
+      },
+      "sql": {
+        "username": "smo_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "SMO",
+        "operAirportID": "'KSMO'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "SNA": {
+      "details": {
+        "name": "John Wayne Airport",
+        "region": "US",
+        "IATA": "SNA",
+        "ICAO": "KSNA"
+      },
+      "sql": {
+        "username": "sna_anoms_dba",
+        "password": "sna875",
+        "connectString": "SNA",
+        "operAirportID": "'KSNA'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "VNY": {
+      "details": {
+        "name": "Van Nuys Airport",
+        "region": "US",
+        "IATA": "VNY",
+        "ICAO": "KVNY"
+      },
+      "sql": {
+        "username": "vny_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "LAWA",
+        "operAirportID": "'VNY'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "YEG": {
+      "details": {
+        "name": "Edmonton International Airport",
+        "region": "US",
+        "IATA": "YEG",
+        "ICAO": "CYEG"
+      },
+      "sql": {
+        "username": "yeg_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "YEG",
+        "operAirportID": "'CYEG'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "YUL": {
+      "details": {
+        "name": "Montreal–Trudeau International Airport",
+        "region": "US",
+        "IATA": "YUL",
+        "ICAO": "CYUL"
+      },
+      "sql": {
+        "username": "yul_anoms_dba",
+        "password": "LochardYul875",
+        "connectString": "YUL",
+        "operAirportID": "'CYUL'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "YVR": {
+      "details": {
+        "name": "Vancouver International Airport",
+        "region": "US",
+        "IATA": "YVR",
+        "ICAO": "CYVR"
+      },
+      "sql": {
+        "username": "yvr_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "YVR",
+        "operAirportID": "'CYVR'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    },
+    "YYZ": {
+      "details": {
+        "name": "Toronto Pearson International Airport",
+        "region": "US",
+        "IATA": "YYZ",
+        "ICAO": "CYYZ"
+      },
+      "sql": {
+        "username": "yyz_anoms_dba",
+        "password": "Lochard875",
+        "connectString": "YYZ",
+        "operAirportID": "'CYYZ'"
+      },
+      "sitecheck": {
+        "flightdata": true,
+        "hourlydata": true,
+        "eventdata": true,
+        "weatherdata": false
+      }
+    }
+  }
+}

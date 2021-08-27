@@ -1,0 +1,83 @@
+doctype html
+html(lang='en')
+  include common/header.pug
+  +header("Operations Centre Tool")
+  body
+    header
+      include common/navbar.pug
+      +navbar()
+    h1 OC Tool
+    p Site Check for #{siteName}
+    
+    table(style='width:90%', border='5', class='table table-hover table-dark')
+      thead Noise Climates
+        tr
+          each item in rmts
+            th #{item.RMTID}
+        
+      tbody
+       each r in resultsN
+        tr
+        each item in r
+          td #{item.TOTAL}
+          
+    table(style='width:50%', border='5', class='table table-hover table-dark')
+      thead Weatherclimates
+        tr
+        each item in resultsWID
+          th #{item.WXID}
+                
+                
+        tbody
+          each r in resultsW
+            tr
+            each item in r
+              td #{item.TOTAL}
+              
+    table(style='width:100%', border='5', class='table table-hover table-dark')
+      thead Plans, flights and tracks
+        tr
+        each item in opsHead
+          th #{item}
+                
+        tbody
+          each item in resultsOps
+            tr
+            td #{item.SUMMARYDATE}
+            td #{item.FLIGHTS}
+            td #{item.TRACKS}
+            td #{item.PLANS}
+            td #{item.PLANONLY}
+            td #{item.PLANSWITHTRACKS}
+            td #{item.ARRIVALTRACKS}
+            td #{item.DEPTTRACKS}
+            td #{item.OVERFLIGHTS}
+            td #{item.ADTRACKS}
+            td #{item.PT}
+            td #{item.PLANCOMPLETENESS}
+            td #{item.AD}
+            td #{item.NOISEEVENTS}
+            td #{item.FLIGHTNOISEEVENTS}
+      
+      table(style='width:100%', border='5', class='table table-hover table-dark')
+        thead calibrationcheck three days since last success needs investigation
+          tr
+          each item in calHead
+            th #{item}
+                  
+          tbody
+            each item in resultsCals
+              tr
+              td #{item.LOCID}
+              td #{item.LAST_SUCCESS}
+              td #{item.INVESTIGATION_NEEDED}
+                  
+  
+        
+          
+            
+    include common/footer.pug
+    +footer()
+
+
+  
